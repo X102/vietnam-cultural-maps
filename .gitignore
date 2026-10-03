@@ -1,0 +1,11 @@
+# Tệp cá nhân, không liên quan đến ứng dụng
+Siberian Wellness.xlsx
+
+# Rác hệ điều hành / trình soạn thảo
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Tệp tạm của Python
+__pycache__/
+*.pyc

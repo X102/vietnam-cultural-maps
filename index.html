@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bản đồ Di sản Văn hoá Việt Nam</title>
+  <link rel="stylesheet" href="js/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="brand">
+        <h1>🇻🇳 Bản đồ Di sản Văn hoá Việt Nam</h1>
+        <p class="subtitle">7 vùng văn hoá · 63 tỉnh thành · di sản thế giới &amp; văn hoá phi vật thể</p>
+      </div>
+
+      <div class="stats" id="stats"></div>
+
+      <section class="panel" id="update-panel">
+        <div class="panel-title">🔄 Cập nhật dữ liệu</div>
+        <button id="btn-refresh" class="btn btn-primary" type="button">Cập nhật ngay</button>
+        <div class="update-meta">
+          <span id="update-status">Đang tải dữ liệu…</span>
+          <span id="update-countdown" class="muted"></span>
+        </div>
+        <p class="hint">Dữ liệu tự động được làm mới mỗi giờ. Để thêm thông tin, chỉnh sửa <code>data/heritage.json</code> hoặc chạy <code>update.py</code>.</p>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">🔍 Tìm kiếm</div>
+        <input id="search" type="search" placeholder="Tìm di sản, tỉnh, vùng…" autocomplete="off" />
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">🏷️ Loại di sản</div>
+        <div id="category-filter" class="filter-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">🗺️ Các vùng văn hoá</div>
+        <div id="region-list" class="region-list"></div>
+      </section>
+
+      <footer class="sidebar-footer">
+        <p>Nguồn: UNESCO WHC, UNESCO ICH, Cục Di sản văn hoá (Bộ VHTTDL).</p>
+        <p class="muted">Ranh giới tỉnh: bộ dữ liệu dvhcvn (63 tỉnh).</p>
+      </footer>
+    </aside>
+
+    <!-- Toggle sidebar (mobile) -->
+    <button id="btn-sidebar" class="btn btn-icon" type="button" title="Hiện/ẩn bảng điều khiển">☰</button>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Base layer toggle -->
+    <div id="basemap-toggle" class="basemap-toggle">
+      <button class="btn btn-basemap active" data-base="osm" type="button">Đường phố</button>
+      <button class="btn btn-basemap" data-base="voyager" type="button">Địa hình</button>
+    </div>
+
+    <!-- Detail panel -->
+    <div id="detail-panel" class="detail-panel hidden" aria-live="polite">
+      <button id="btn-close-detail" class="btn btn-icon btn-close" type="button" title="Đóng">×</button>
+      <div id="detail-content"></div>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Đang tải bản đồ và dữ liệu…</p>
+    </div>
+
+    <!-- Error banner -->
+    <div id="error-banner" class="error-banner hidden"></div>
+  </div>
+
+  <script src="js/vendor/leaflet/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "Bản đồ Di sản Văn hoá Việt Nam",
+    "version": "1.0.0",
+    "updated": "2026-10-03",
+    "description": "Bản đồ tương tác hiển thị 7 vùng văn hoá và các di sản văn hoá nổi bật của Việt Nam: di sản thế giới, di sản văn hoá phi vật thể, di sản tư liệu, lễ hội truyền thống và di tích – danh thắng tiêu biểu.",
+    "sources": [
+      "UNESCO World Heritage Centre (whc.unesco.org)",
+      "UNESCO Intangible Cultural Heritage (ich.unesco.org)",
+      "Cục Di sản văn hoá – Bộ Văn hoá, Thể thao và Du lịch (dsvh.gov.vn)"
+    ]
+  },
+  "categories": {
+    "world":       { "label": "Di sản thế giới",           "color": "#d81b60" },
+    "intangible":  { "label": "Di sản phi vật thể UNESCO", "color": "#8e24aa" },
+    "documentary": { "label": "Di sản tư liệu",            "color": "#00838f" },
+    "festival":    { "label": "Lễ hội truyền thống",        "color": "#ef6c00" },
+    "site":        { "label": "Di tích – danh thắng",       "color": "#2e7d32" }
+  },
+  "regions": [
+    { "code": "tdmnpb", "name": "Trung du và miền núi phía Bắc", "description": "Vùng núi non hùng vĩ, nơi sinh sống của hơn 30 dân tộc thiểu số với kho tàng văn hoá độc đáo: Then, Xòe Thái, chợ phiên, ruộng bậc thang và các lễ hội cổ truyền." },
+    { "code": "dbsh",   "name": "Đồng bằng sông Hồng",          "description": "Cái nôi của nền văn minh lúa nước và văn hiến Thăng Long, nơi tập trung nhiều di tích, làng nghề, lễ hội và tín ngưỡng lâu đời bậc nhất." },
+    { "code": "btb",    "name": "Bắc Trung Bộ",                 "description": "Dải đất miền Trung giàu truyền thống, nơi giao thoa văn hoá Việt – Chăm, với cố đô Huế, dân ca Ví Giặm và nhiều di tích lịch sử." },
+    { "code": "dhntb",  "name": "Duyên hải Nam Trung Bộ",       "description": "Vùng ven biển với văn hoá biển đặc sắc: phố cổ Hội An, thánh địa Mỹ Sơn, bài chòi và các lễ hội cầu ngư của ngư dân." },
+    { "code": "tn",     "name": "Tây Nguyên",                   "description": "Vùng đất của cồng chiêng, nhà rông và sử thi, nơi bảo lưu không gian văn hoá của các dân tộc Ê Đê, Gia Rai, Ba Na, Mnông…" },
+    { "code": "dnb",    "name": "Đông Nam Bộ",                  "description": "Vùng kinh tế năng động gắn với Sài Gòn – Gia Định, nơi hội tụ nhiều luồng văn hoá và các di tích cách mạng lịch sử." },
+    { "code": "dbscl",  "name": "Đồng bằng sông Cửu Long",      "description": "Vùng sông nước miệt vườn với văn hoá đa dân tộc Việt – Khmer – Hoa – Chăm: đờn ca tài tử, chợ nổi và các lễ hội truyền thống đậm bản sắc." }
+  ],
+  "heritage": [
+    {
+      "id": "wh-01", "name": "Vịnh Hạ Long", "category": "world",
+      "type": "Di sản thiên nhiên thế giới", "year": 1994, "province": "Quảng Ninh", "region": "dbsh",
+      "coords": [107.1839, 20.9101],
+      "summary": "Hơn 1.600 đảo đá vôi nhấp nhô trên mặt nước, được UNESCO công nhận Di sản thiên nhiên thế giới năm 1994.",
+      "description": "Vịnh Hạ Long nổi tiếng với cảnh quan karst biển độc đáo, gắn với truyền thuyết rồng hạ xuống biển. Năm 2000 UNESCO công nhận thêm giá trị địa chất – địa mạo; đây là một trong những điểm đến biểu tượng của du lịch Việt Nam.",
+      "source": "https://whc.unesco.org/en/list/672"
+    },
+    {
+      "id": "wh-02", "name": "Quần thể di tích Cố đô Huế", "category": "world",
+      "type": "Di sản văn hoá thế giới", "year": 1993, "province": "Thừa Thiên Huế", "region": "btb",
+      "coords": [107.5909, 16.4637],
+      "summary": "Kinh đô triều Nguyễn với hệ thống cung điện, lăng tẩm, đền đài tiêu biểu cho kiến trúc cung đình Việt Nam.",
+      "description": "Quần thể di tích Cố đô Huế gồm Kinh thành, Hoàng thành, Tử Cấm Thành và hệ thống lăng tẩm các vua Nguyễn dọc sông Hương. Đây là trung tâm quyền lực của triều Nguyễn (1802–1945) và là nơi lưu giữ nhã nhạc cung đình.",
+      "source": "https://whc.unesco.org/en/list/678"
+    },
+    {
+      "id": "wh-03", "name": "Phố cổ Hội An", "category": "world",
+      "type": "Di sản văn hoá thế giới", "year": 1999, "province": "Quảng Nam", "region": "dhntb",
+      "coords": [108.3380, 15.8801],
+      "summary": "Đô thị thương cảng cổ từ thế kỷ 15–19, nơi giao thoa văn hoá Việt, Hoa, Nhật và phương Tây.",
+      "description": "Hội An từng là thương cảng quốc tế sầm uất của Đàng Trong. Kiến trúc nhà cổ, hội quán, chùa cầu và lối sống phố Hội được bảo tồn gần như nguyên vẹn, phản ánh sự giao lưu văn hoá nhiều thế kỷ.",
+      "source": "https://whc.unesco.org/en/list/948"
+    },
+    {
+      "id": "wh-04", "name": "Thánh địa Mỹ Sơn", "category": "world",
+      "type": "Di sản văn hoá thế giới", "year": 1999, "province": "Quảng Nam", "region": "dhntb",
+      "coords": [108.1245, 15.7747],
+      "summary": "Quần thể đền tháp Chăm Pa (thế kỷ 4–13), trung tâm tôn giáo của vương quốc Chăm Pa cổ.",
+      "description": "Mỹ Sơn là thánh địa Hindu giáo quan trọng bậc nhất của vương quốc Chăm Pa, với hàng chục tháp gạch đỏ tinh xảo. Đây là minh chứng cho một nền văn minh đã từng hưng thịnh và giao thoa với Ấn Độ giáo.",
+      "source": "https://whc.unesco.org/en/list/949"
+    },
+    {
+      "id": "wh-05", "name": "Vườn quốc gia Phong Nha – Kẻ Bàng", "category": "world",
+      "type": "Di sản thiên nhiên thế giới", "year": 2003, "province": "Quảng Bình", "region": "btb",
+      "coords": [106.2837, 17.5908],
+      "summary": "Hệ thống hang động đá vôi đồ sộ, trong đó có hang Sơn Đoòng – hang động lớn nhất thế giới.",
+      "description": "Vườn quốc gia Phong Nha – Kẻ Bàng nổi tiếng với hàng trăm hang động và hệ sinh thái rừng nhiệt đới trên núi đá vôi cổ. Hang Sơn Đoòng được phát hiện năm 2009, được xem là hang động tự nhiên lớn nhất thế giới.",
+      "source": "https://whc.unesco.org/en/list/951"
+    },
+    {
+      "id": "wh-06", "name": "Khu trung tâm Hoàng thành Thăng Long – Hà Nội", "category": "world",
+      "type": "Di sản văn hoá thế giới", "year": 2010, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.8404, 21.0374],
+      "summary": "Trung tâm quyền lực liên tục hơn 13 thế kỷ, minh chứng sống động cho lịch sử Thăng Long – Hà Nội.",
+      "description": "Khu trung tâm Hoàng thành Thăng Long gồm các tầng văn hoá chồng xếp từ thời Đại La, Lý, Trần, Lê đến Nguyễn. Di tích khảo cổ và các công trình như Đoan Môn, điện Kính Thiên cho thấy sự liên tục của một kinh đô hơn nghìn năm.",
+      "source": "https://whc.unesco.org/en/list/1328"
+    },
+    {
+      "id": "wh-07", "name": "Thành nhà Hồ", "category": "world",
+      "type": "Di sản văn hoá thế giới", "year": 2011, "province": "Thanh Hóa", "region": "btb",
+      "coords": [105.6031, 20.0776],
+      "summary": "Toà thành đá xây năm 1397 của vương triều Hồ, thể hiện kỹ thuật xây dựng xuất sắc thời bấy giờ.",
+      "description": "Thành nhà Hồ (còn gọi thành Tây Đô) được xây bằng những khối đá tảng lớn xếp chồng không cần chất kết dính. Đây là minh chứng cho sự giao thoa kiến trúc Đông – Tây và một giai đoạn chuyển biến quan trọng của lịch sử Việt Nam.",
+      "source": "https://whc.unesco.org/en/list/1358"
+    },
+    {
+      "id": "wh-08", "name": "Quần thể danh thắng Tràng An", "category": "world",
+      "type": "Di sản hỗn hợp (thiên nhiên và văn hoá)", "year": 2014, "province": "Ninh Bình", "region": "dbsh",
+      "coords": [105.9153, 20.2544],
+      "summary": "Cảnh quan karst – hang động – sông nước, gắn với cố đô Hoa Lư và dấu tích cư trú của người tiền sử.",
+      "description": "Tràng An là di sản hỗn hợp đầu tiên của Việt Nam, hài hoà giữa cảnh quan thiên nhiên và giá trị văn hoá, lịch sử. Khu vực gắn liền với cố đô Hoa Lư (thế kỷ 10) và các di chỉ khảo cổ có niên đại hàng chục nghìn năm.",
+      "source": "https://whc.unesco.org/en/list/1438"
+    },
+
+    {
+      "id": "ich-01", "name": "Nhã nhạc cung đình Huế", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2003, "province": "Thừa Thiên Huế", "region": "btb",
+      "coords": [107.5909, 16.4637],
+      "summary": "Âm nhạc cung đình Việt Nam, biểu diễn trong các nghi lễ của triều Nguyễn.",
+      "description": "Nhã nhạc là loại hình âm nhạc bác học được biểu diễn trong cung đình và các đại lễ. UNESCO ghi danh năm 2003, chuyển sang Danh sách đại diện năm 2008.",
+      "source": "https://ich.unesco.org/en/RL/nha-nhac-vietnamese-court-music-00074"
+    },
+    {
+      "id": "ich-02", "name": "Không gian văn hoá Cồng chiêng Tây Nguyên", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2005, "province": "5 tỉnh Tây Nguyên", "region": "tn",
+      "coords": [108.0, 13.9],
+      "summary": "Hệ thống cồng chiêng gắn bó mật thiết với đời sống tâm linh và cộng đồng các dân tộc Tây Nguyên.",
+      "description": "Cồng chiêng Tây Nguyên không chỉ là nhạc cụ mà còn là tiếng nói tâm linh, hiện diện trong mọi nghi lễ vòng đời của các dân tộc Ê Đê, Gia Rai, Ba Na, Mnông, Xơ Đăng…",
+      "source": "https://ich.unesco.org/en/RL/space-of-gong-culture-00120"
+    },
+    {
+      "id": "ich-03", "name": "Dân ca Quan họ Bắc Ninh", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2009, "province": "Bắc Ninh", "region": "dbsh",
+      "coords": [106.05, 21.18],
+      "summary": "Lối hát giao duyên đối đáp đặc sắc vùng Kinh Bắc, hát trong lễ hội và sinh hoạt cộng đồng.",
+      "description": "Quan họ là nghệ thuật hát đối đáp nam – nữ với lề lối, trang phục và cách hát riêng. Không gian quan họ gắn với 49 làng quan họ gốc ở Bắc Ninh và vùng phụ cận.",
+      "source": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183"
+    },
+    {
+      "id": "ich-04", "name": "Ca trù", "category": "intangible",
+      "type": "Di sản cần bảo vệ khẩn cấp", "year": 2009, "province": "Hà Nội và nhiều tỉnh Bắc Bộ", "region": "dbsh",
+      "coords": [105.85, 21.03],
+      "summary": "Nghệ thuật ca hát thính phòng cổ truyền, từng thịnh hành nơi cung đình và tư gia.",
+      "description": "Ca trù (hát ả đào) kết hợp hát, đàn đáy và phách, đòi hỏi kỹ thuật thanh nhạc tinh tế. UNESCO ghi danh vào Danh sách cần bảo vệ khẩn cấp năm 2009.",
+      "source": "https://ich.unesco.org/en/USL/ca-tru-singing-00309"
+    },
+    {
+      "id": "ich-05", "name": "Hội Gióng ở đền Phù Đổng và đền Sóc", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2010, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.95, 21.06],
+      "summary": "Lễ hội tưởng niệm Thánh Gióng – anh hùng huyền thoại chống giặc ngoại xâm.",
+      "description": "Hội Gióng tái hiện truyền thuyết Thánh Gióng cưỡi ngựa sắt đánh giặc Ân, diễn ra tại đền Phù Đổng (Gia Lâm) và đền Sóc (Sóc Sơn), thể hiện tinh thần yêu nước của người Việt.",
+      "source": "https://ich.unesco.org/en/RL/giong-festival-of-phu-dong-and-soc-temples-00443"
+    },
+    {
+      "id": "ich-06", "name": "Hát Xoan Phú Thọ", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2011, "province": "Phú Thọ", "region": "tdmnpb",
+      "coords": [105.28, 21.35],
+      "summary": "Hát thờ gắn với tín ngưỡng phồn thực và tục thờ Hùng Vương ở vùng đất Tổ.",
+      "description": "Hát Xoan là lối hát thờ được trình diễn vào mùa xuân tại các đình, miếu vùng đất Tổ. UNESCO ghi danh cần bảo vệ khẩn cấp năm 2011 và chuyển sang Danh sách đại diện năm 2017.",
+      "source": "https://ich.unesco.org/en/RL/xoan-singing-of-phu-tho-province-viet-nam-01260"
+    },
+    {
+      "id": "ich-07", "name": "Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2012, "province": "Phú Thọ", "region": "tdmnpb",
+      "coords": [105.29, 21.37],
+      "summary": "Tín ngưỡng thờ các Vua Hùng, biểu tượng cội nguồn và tinh thần đại đoàn kết dân tộc.",
+      "description": "Tín ngưỡng thờ cúng Hùng Vương xoay quanh Đền Hùng trên núi Nghĩa Lĩnh, với Giỗ Tổ Hùng Vương (mùng 10 tháng 3 âm lịch) trở thành quốc lễ của dân tộc.",
+      "source": "https://ich.unesco.org/en/RL/worship-of-hung-kings-in-phu-tho-00735"
+    },
+    {
+      "id": "ich-08", "name": "Nghệ thuật Đờn ca tài tử Nam Bộ", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2013, "province": "Nam Bộ (21 tỉnh, thành)", "region": "dnb",
+      "coords": [106.63, 10.76],
+      "summary": "Loại hình âm nhạc thính phòng của người Nam Bộ, kết hợp đàn, ca và ngâm thơ.",
+      "description": "Đờn ca tài tử là sản phẩm của sự giao thoa giữa nhạc cung đình Huế và dân ca Nam Bộ, được trình diễn trong các dịp lễ, tết, giỗ chạp và sinh hoạt thường ngày.",
+      "source": "https://ich.unesco.org/en/RL/art-of-don-ca-tai-tu-music-and-song-in-southern-viet-nam-00733"
+    },
+    {
+      "id": "ich-09", "name": "Dân ca Ví, Giặm Nghệ Tĩnh", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2014, "province": "Nghệ An, Hà Tĩnh", "region": "btb",
+      "coords": [105.67, 18.67],
+      "summary": "Lối hát ví, giặm mộc mạc gắn với lao động và sinh hoạt của người dân xứ Nghệ.",
+      "description": "Dân ca ví, giặm là tiếng lòng của người dân Nghệ Tĩnh, được hát trong lao động, giao duyên và các nghi lễ, phản ánh triết lý sống và tình cảm cộng đồng.",
+      "source": "https://ich.unesco.org/en/RL/vi-and-giam-folk-songs-of-nghe-tinh-01008"
+    },
+    {
+      "id": "ich-10", "name": "Nghi lễ và trò chơi kéo co", "category": "intangible",
+      "type": "Di sản đa quốc gia", "year": 2015, "province": "Hà Nội, Bắc Ninh, Lào Cai, Vĩnh Phúc…", "region": "dbsh",
+      "coords": [105.84, 21.03],
+      "summary": "Nghi lễ kéo co cầu mùa màng, được ghi danh chung giữa Việt Nam và nhiều quốc gia châu Á.",
+      "description": "Kéo co không chỉ là trò chơi mà còn là nghi lễ cầu mùa màng, sức khoẻ của nhiều cộng đồng. Việt Nam ghi danh cùng Campuchia, Hàn Quốc và Philippines.",
+      "source": "https://ich.unesco.org/en/RL/tugging-rituals-and-games-01080"
+    },
+    {
+      "id": "ich-11", "name": "Thực hành tín ngưỡng thờ Mẫu Tam phủ của người Việt", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2016, "province": "Nam Định và nhiều tỉnh", "region": "dbsh",
+      "coords": [106.17, 20.43],
+      "summary": "Tín ngưỡng thờ Mẫu gắn với nghi lễ hầu đồng và hát chầu văn đầy màu sắc.",
+      "description": "Tín ngưỡng thờ Mẫu Tam phủ (Thiên – Địa – Thoải) thờ các vị thánh Mẫu, gắn liền với nghi lễ hầu đồng, hát chầu văn. Đây là nét văn hoá tâm linh đặc sắc của người Việt.",
+      "source": "https://ich.unesco.org/en/RL/practices-related-to-the-viet-beliefs-in-the-mother-goddesses-of-three-realms-01064"
+    },
+    {
+      "id": "ich-12", "name": "Nghệ thuật Bài chòi Trung Bộ", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2017, "province": "9 tỉnh Trung Bộ", "region": "dhntb",
+      "coords": [109.2, 13.77],
+      "summary": "Hình thức hát – chơi bài kết hợp trình diễn và trò chơi, phổ biến ven biển miền Trung.",
+      "description": "Bài chòi là sinh hoạt văn hoá cộng đồng độc đáo của miền Trung, kết hợp âm nhạc, thơ ca, diễn xuất và trò chơi bài trong các chòi tranh, thường diễn ra dịp xuân về.",
+      "source": "https://ich.unesco.org/en/RL/the-art-of-bai-choi-in-central-viet-nam-01222"
+    },
+    {
+      "id": "ich-13", "name": "Thực hành Then của người Tày, Nùng, Thái", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2019, "province": "Miền núi phía Bắc", "region": "tdmnpb",
+      "coords": [105.9, 22.3],
+      "summary": "Nghi lễ Then gắn với hát, đàn tính và tín ngưỡng của các dân tộc Tày, Nùng, Thái.",
+      "description": "Then là thực hành nghi lễ tín ngưỡng kết hợp hát, múa và đàn tính, phản ánh vũ trụ quan và đời sống tinh thần của người Tày, Nùng, Thái vùng núi phía Bắc.",
+      "source": "https://ich.unesco.org/en/RL/practices-of-then-by-tay-nung-and-thai-people-in-viet-nam-01379"
+    },
+    {
+      "id": "ich-14", "name": "Nghệ thuật Xòe Thái", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2021, "province": "Sơn La, Điện Biên, Lai Châu, Yên Bái", "region": "tdmnpb",
+      "coords": [104.0, 21.33],
+      "summary": "Điệu múa xòe cộng đồng, biểu tượng của sự đoàn kết người Thái vùng Tây Bắc.",
+      "description": "Xòe là điệu múa tập thể truyền thống của người Thái, thường diễn ra trong lễ hội, cưới hỏi và các sự kiện cộng đồng, với các động tác xòe vòng, xòe nón, xòe khăn…",
+      "source": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01420"
+    },
+    {
+      "id": "ich-15", "name": "Nghề làm gốm của người Chăm", "category": "intangible",
+      "type": "Di sản cần bảo vệ khẩn cấp", "year": 2022, "province": "Ninh Thuận, Bình Thuận", "region": "dhntb",
+      "coords": [108.9, 11.6],
+      "summary": "Nghề gốm thủ công lâu đời của người Chăm, nặn tay hoàn toàn không dùng bàn xoay.",
+      "description": "Gốm Chăm được làm thủ công bởi phụ nữ tại các làng Bàu Trúc (Ninh Thuận) và Bình Đức (Bình Thuận), nung lộ thiên bằng củi, rơm. UNESCO ghi danh cần bảo vệ khẩn cấp năm 2022.",
+      "source": "https://ich.unesco.org/en/USL/art-of-pottery-making-of-cham-people-01574"
+    },
+    {
+      "id": "ich-16", "name": "Lễ hội Vía Bà Chúa Xứ núi Sam", "category": "intangible",
+      "type": "Di sản phi vật thể đại diện", "year": 2024, "province": "An Giang", "region": "dbscl",
+      "coords": [105.08, 10.71],
+      "summary": "Lễ hội lớn của miền Tây Nam Bộ, tôn vinh Bà Chúa Xứ núi Sam, diễn ra tháng 4 âm lịch.",
+      "description": "Lễ hội Vía Bà Chúa Xứ núi Sam diễn ra tại Châu Đốc (An Giang), thu hút hàng triệu lượt người hành hương. UNESCO ghi danh vào tháng 12/2024, là di sản phi vật thể thứ 16 của Việt Nam.",
+      "source": "https://ich.unesco.org/en/RL/festival-of-the-ba-chua-xu-goddess-at-sam-mountain-02160"
+    },
+
+    {
+      "id": "doc-01", "name": "Mộc bản triều Nguyễn", "category": "documentary",
+      "type": "Di sản tư liệu thế giới", "year": 2009, "province": "Lâm Đồng (Đà Lạt)", "region": "tn",
+      "coords": [108.44, 11.94],
+      "summary": "34.555 tấm mộc bản khắc chữ Hán – Nôm, ghi chép lịch sử, văn hoá triều Nguyễn.",
+      "description": "Mộc bản triều Nguyễn là bộ ván khắc dùng để in sách thời Nguyễn, hiện lưu giữ tại Trung tâm Lưu trữ Quốc gia IV (Đà Lạt). Đây là di sản tư liệu đầu tiên của Việt Nam được UNESCO ghi danh.",
+      "source": "https://www.unesco.org/en/memory-world"
+    },
+    {
+      "id": "doc-02", "name": "Bia tiến sĩ Văn Miếu – Quốc Tử Giám", "category": "documentary",
+      "type": "Di sản tư liệu thế giới", "year": 2010, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.8356, 21.0285],
+      "summary": "82 tấm bia đá ghi danh các tiến sĩ thời Lê – Mạc (1442–1779), biểu tượng truyền thống hiếu học.",
+      "description": "82 tấm bia đá tại Văn Miếu – Quốc Tử Giám ghi danh các vị đỗ đại khoa, thể hiện truyền thống tôn sư trọng đạo và hiếu học của dân tộc Việt Nam.",
+      "source": "https://www.unesco.org/en/memory-world"
+    },
+    {
+      "id": "doc-03", "name": "Mộc bản kinh Phật chùa Vĩnh Nghiêm", "category": "documentary",
+      "type": "Di sản tư liệu khu vực châu Á – Thái Bình Dương", "year": 2012, "province": "Bắc Giang", "region": "tdmnpb",
+      "coords": [106.32, 21.19],
+      "summary": "Kho mộc bản kinh Phật của Thiền phái Trúc Lâm tại chùa Vĩnh Nghiêm (Bắc Giang).",
+      "description": "Chùa Vĩnh Nghiêm là trung tâm của Thiền phái Trúc Lâm, lưu giữ hơn 3.000 mộc bản kinh Phật quý, phản ánh lịch sử Phật giáo Việt Nam.",
+      "source": "https://www.unesco.org/en/memory-world"
+    },
+    {
+      "id": "doc-04", "name": "Châu bản triều Nguyễn", "category": "documentary",
+      "type": "Di sản tư liệu khu vực châu Á – Thái Bình Dương", "year": 2014, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.84, 21.03],
+      "summary": "Văn bản hành chính triều Nguyễn (1802–1945), ghi chép hoạt động quản lý nhà nước.",
+      "description": "Châu bản triều Nguyễn gồm hàng chục vạn văn bản hành chính có bút phê của các vua Nguyễn, là nguồn sử liệu quý về quản lý nhà nước và đời sống xã hội.",
+      "source": "https://www.unesco.org/en/memory-world"
+    },
+    {
+      "id": "doc-05", "name": "Thơ văn trên kiến trúc cung đình Huế", "category": "documentary",
+      "type": "Di sản tư liệu khu vực châu Á – Thái Bình Dương", "year": 2016, "province": "Thừa Thiên Huế", "region": "btb",
+      "coords": [107.59, 16.47],
+      "summary": "Hệ thống chữ Hán trang trí trên các công trình cung đình Huế, kho tàng văn chương độc đáo.",
+      "description": "Thơ văn chữ Hán được chạm khắc, tráng men trên gỗ, đồng, pháp lam ở các cung điện, lăng tẩm Huế, tạo nên một 'bảo tàng văn chương' giữa lòng di sản.",
+      "source": "https://www.unesco.org/en/memory-world"
+    },
+
+    {
+      "id": "fes-01", "name": "Lễ hội Đền Hùng (Giỗ Tổ Hùng Vương)", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Phú Thọ", "region": "tdmnpb",
+      "coords": [105.29, 21.37],
+      "summary": "Quốc lễ tưởng nhớ các Vua Hùng, hàng triệu người hành hương về Đền Hùng mỗi dịp mùng 10 tháng 3.",
+      "description": "Giỗ Tổ Hùng Vương – Lễ hội Đền Hùng diễn ra vào mùng 10 tháng 3 âm lịch, với nghi thức dâng hương, rước kiệu và các hoạt động văn hoá dân gian vùng đất Tổ.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-02", "name": "Lễ hội chùa Hương", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.66, 20.63],
+      "summary": "Lễ hội hành hương lớn bậc nhất miền Bắc, kéo dài suốt mùa xuân tại vùng Hương Sơn.",
+      "description": "Hội chùa Hương khai hội từ mùng 6 tháng Giêng và kéo dài đến hết tháng 3 âm lịch, với cảnh sắc núi non, hang động và dòng suối Yến thơ mộng.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-03", "name": "Lễ hội Yên Tử", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Quảng Ninh", "region": "dbsh",
+      "coords": [106.71, 21.11],
+      "summary": "Lễ hội gắn với Phật hoàng Trần Nhân Tông và Thiền phái Trúc Lâm trên non thiêng Yên Tử.",
+      "description": "Yên Tử là cái nôi của Thiền phái Trúc Lâm do Phật hoàng Trần Nhân Tông sáng lập. Lễ hội mùa xuân thu hút đông đảo phật tử và du khách hành hương về chốn tổ.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-04", "name": "Lễ hội chùa Bái Đính", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Ninh Bình", "region": "dbsh",
+      "coords": [105.79, 20.26],
+      "summary": "Lễ hội tại quần thể chùa Bái Đính – ngôi chùa lớn với nhiều kỷ lục của Việt Nam.",
+      "description": "Lễ hội chùa Bái Đính khai hội mùng 6 tháng Giêng, nằm trong quần thể danh thắng Tràng An, kết hợp hành hương và tham quan cảnh quan karst kỳ vĩ.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-05", "name": "Lễ hội Cầu Ngư (Cá Ông)", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Bình Định và ven biển Trung Bộ", "region": "dhntb",
+      "coords": [109.21, 13.78],
+      "summary": "Lễ hội của ngư dân miền Trung tế thần Nam Hải (cá voi), cầu mong biển lặng, mùa cá bội thu.",
+      "description": "Lễ hội Cầu Ngư gắn với tín ngưỡng thờ cá voi (Cá Ông) của ngư dân, kết hợp nghi lễ rước, hát bả trạo và các trò diễn dân gian, thể hiện văn hoá biển đặc sắc.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-06", "name": "Lễ hội Katê", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Ninh Thuận", "region": "dhntb",
+      "coords": [108.97, 11.56],
+      "summary": "Lễ hội lớn nhất của người Chăm, tưởng nhớ tổ tiên và các vị thần tại các đền tháp.",
+      "description": "Katê là lễ hội truyền thống quan trọng nhất của người Chăm, diễn ra vào tháng 7 lịch Chăm tại các tháp như Pô Klong Garai, với nghi lễ dâng lễ và các điệu múa, dân ca Chăm.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-07", "name": "Lễ hội Ok Om Bok", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Sóc Trăng, Trà Vinh", "region": "dbscl",
+      "coords": [105.97, 9.60],
+      "summary": "Lễ hội cúng trăng của người Khmer, gắn với tục thả đèn nước và đua ghe ngo.",
+      "description": "Ok Om Bok là lễ hội cúng trăng của đồng bào Khmer vào rằm tháng 10 âm lịch, tạ ơn thần Mặt Trăng, với nghi thức thả đèn nước và hội đua ghe ngo sôi động.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-08", "name": "Lễ hội đua bò Bảy Núi", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "An Giang", "region": "dbscl",
+      "coords": [105.14, 10.66],
+      "summary": "Hội đua bò độc đáo của đồng bào Khmer vùng Bảy Núi, thu hút hàng chục nghìn người xem.",
+      "description": "Lễ hội đua bò Bảy Núi (huyện Tịnh Biên, Tri Tôn) là nét sinh hoạt văn hoá đặc sắc của người Khmer, diễn ra dịp lễ Dolta với những cặp bò kéo bừa tranh tài gay cấn.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-09", "name": "Lễ hội chọi trâu Đồ Sơn", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Hải Phòng", "region": "dbsh",
+      "coords": [106.79, 20.72],
+      "summary": "Lễ hội chọi trâu truyền thống gắn với tín ngưỡng biển của ngư dân Đồ Sơn.",
+      "description": "Chọi trâu Đồ Sơn diễn ra vào mùng 9 tháng 8 âm lịch, là lễ hội lâu đời gắn với tục thờ thần biển và cầu mong mùa màng, ngư nghiệp thuận lợi.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "fes-10", "name": "Lễ hội đền Trần (Khai ấn)", "category": "festival",
+      "type": "Lễ hội truyền thống", "year": null, "province": "Nam Định", "region": "dbsh",
+      "coords": [106.34, 20.46],
+      "summary": "Lễ khai ấn đền Trần tưởng nhớ các vua Trần, với nghi thức khai ấn cầu may đầu năm.",
+      "description": "Lễ khai ấn đền Trần diễn ra đêm 14 tháng Giêng tại Nam Định, tái hiện nghi thức ban ấn của triều Trần, thu hút đông đảo người dân và du khách.",
+      "source": "https://vietnam.travel"
+    },
+
+    {
+      "id": "site-01", "name": "Văn Miếu – Quốc Tử Giám", "category": "site",
+      "type": "Di tích lịch sử – văn hoá", "year": 1076, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.8356, 21.0285],
+      "summary": "Trường đại học đầu tiên của Việt Nam (1076), biểu tượng truyền thống hiếu học.",
+      "description": "Văn Miếu – Quốc Tử Giám được xây từ thời Lý, là nơi thờ Khổng Tử và đào tạo nhân tài. Quần thể với Khuê Văn Các và 82 bia tiến sĩ là điểm đến văn hoá tiêu biểu của Hà Nội.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-02", "name": "Lăng Chủ tịch Hồ Chí Minh", "category": "site",
+      "type": "Di tích lịch sử", "year": 1975, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.8347, 21.0368],
+      "summary": "Nơi lưu giữ thi hài Chủ tịch Hồ Chí Minh, công trình linh thiêng tại Quảng trường Ba Đình.",
+      "description": "Lăng Chủ tịch Hồ Chí Minh toạ lạc tại Quảng trường Ba Đình – nơi Người đọc Tuyên ngôn Độc lập năm 1945, là địa chỉ tưởng niệm thiêng liêng của dân tộc.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-03", "name": "Hồ Hoàn Kiếm và Đền Ngọc Sơn", "category": "site",
+      "type": "Danh thắng", "year": null, "province": "Hà Nội", "region": "dbsh",
+      "coords": [105.8524, 21.0287],
+      "summary": "Biểu tượng trung tâm Hà Nội, gắn với truyền thuyết trả gươm và Tháp Rùa cổ kính.",
+      "description": "Hồ Hoàn Kiếm (hồ Gươm) với Tháp Rùa, cầu Thê Húc và Đền Ngọc Sơn là biểu tượng của Hà Nội, gắn liền với truyền thuyết vua Lê trả gươm cho Rùa thần.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-04", "name": "Địa đạo Củ Chi", "category": "site",
+      "type": "Di tích lịch sử", "year": null, "province": "TP. Hồ Chí Minh", "region": "dnb",
+      "coords": [106.43, 11.06],
+      "summary": "Hệ thống địa đạo thời kháng chiến, minh chứng ý chí kiên cường của quân dân miền Nam.",
+      "description": "Địa đạo Củ Chi là hệ thống hầm ngầm dài hàng trăm km, nơi quân dân ta chiến đấu và sinh sống trong kháng chiến chống Mỹ, nay là di tích lịch sử nổi tiếng.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-05", "name": "Nhà tù Côn Đảo", "category": "site",
+      "type": "Di tích lịch sử", "year": null, "province": "Bà Rịa – Vũng Tàu", "region": "dnb",
+      "coords": [106.62, 8.68],
+      "summary": "'Địa ngục trần gian' thời thực dân, nơi giam giữ các chiến sĩ cách mạng.",
+      "description": "Nhà tù Côn Đảo (Côn Đảo) là nơi thực dân Pháp và đế quốc Mỹ giam cầm, tra tấn các chiến sĩ cách mạng, nay trở thành di tích lịch sử và điểm đến tri ân.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-06", "name": "Khu di tích Điện Biên Phủ", "category": "site",
+      "type": "Di tích lịch sử", "year": 1954, "province": "Điện Biên", "region": "tdmnpb",
+      "coords": [103.01, 21.39],
+      "summary": "Chiến trường lịch sử của chiến thắng Điện Biên Phủ 1954 'lừng lẫy năm châu, chấn động địa cầu'.",
+      "description": "Quần thể di tích Điện Biên Phủ gồm đồi A1, hầm Đờ Cát, Sở chỉ huy chiến dịch… ghi dấu chiến thắng lịch sử 7/5/1954, chấm dứt ách đô hộ của thực dân Pháp.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-07", "name": "Thành cổ Quảng Trị", "category": "site",
+      "type": "Di tích lịch sử", "year": null, "province": "Quảng Trị", "region": "btb",
+      "coords": [107.07, 16.74],
+      "summary": "Chứng tích 81 ngày đêm mùa hè 1972, địa danh thiêng liêng của khát vọng hoà bình.",
+      "description": "Thành cổ Quảng Trị là nơi diễn ra cuộc chiến 81 ngày đêm khốc liệt năm 1972. Ngày nay, đây là địa chỉ tri ân các anh hùng liệt sĩ và biểu tượng của khát vọng hoà bình.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-08", "name": "Nhà thờ Đức Bà và Bưu điện Trung tâm Sài Gòn", "category": "site",
+      "type": "Công trình kiến trúc", "year": 1880, "province": "TP. Hồ Chí Minh", "region": "dnb",
+      "coords": [106.70, 10.78],
+      "summary": "Công trình kiến trúc Pháp tiêu biểu, biểu tượng của Sài Gòn – TP. Hồ Chí Minh.",
+      "description": "Nhà thờ Đức Bà và Bưu điện Trung tâm là những công trình kiến trúc Pháp cổ nổi tiếng giữa lòng Sài Gòn, gắn bó với lịch sử hình thành và phát triển của thành phố.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-09", "name": "Chợ nổi Cái Răng", "category": "site",
+      "type": "Di sản văn hoá phi vật thể quốc gia", "year": null, "province": "Cần Thơ", "region": "dbscl",
+      "coords": [105.78, 10.03],
+      "summary": "Chợ trên sông đặc trưng miền Tây, nét văn hoá sông nước độc đáo.",
+      "description": "Chợ nổi Cái Răng là chợ trên sông lớn nổi tiếng của đồng bằng sông Cửu Long, nơi hàng hoá được bán ngay trên ghe thuyền, thể hiện sinh động văn hoá sông nước miền Tây.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-10", "name": "Cao nguyên đá Đồng Văn", "category": "site",
+      "type": "Công viên địa chất toàn cầu UNESCO", "year": 2010, "province": "Hà Giang", "region": "tdmnpb",
+      "coords": [105.2, 23.27],
+      "summary": "Công viên địa chất toàn cầu UNESCO (2010), cảnh quan núi đá hùng vĩ của các dân tộc thiểu số.",
+      "description": "Cao nguyên đá Đồng Văn là công viên địa chất toàn cầu đầu tiên của Việt Nam, với cảnh quan núi đá karst kỳ vĩ và bản sắc văn hoá của các dân tộc Mông, Dao, Lô Lô…",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-11", "name": "Chùa Thiên Mụ", "category": "site",
+      "type": "Di tích lịch sử – văn hoá", "year": 1601, "province": "Thừa Thiên Huế", "region": "btb",
+      "coords": [107.54, 16.45],
+      "summary": "Ngôi chùa cổ nổi tiếng bên dòng sông Hương, biểu tượng của xứ Huế.",
+      "description": "Chùa Thiên Mụ toạ lạc trên đồi Hà Khê bên dòng sông Hương, với tháp Phước Duyên bảy tầng, là biểu tượng văn hoá – tâm linh gắn với lịch sử cố đô Huế.",
+      "source": "https://vietnam.travel"
+    },
+    {
+      "id": "site-12", "name": "Tháp Bà Ponagar", "category": "site",
+      "type": "Di tích lịch sử – văn hoá", "year": null, "province": "Khánh Hòa", "region": "dhntb",
+      "coords": [109.19, 12.26],
+      "summary": "Quần thể tháp Chăm cổ (thế kỷ 8–13) bên cửa sông Cái, Nha Trang.",
+      "description": "Tháp Bà Ponagar là quần thể đền tháp của người Chăm thờ nữ thần Ponagar (Thiên Y A Na), toạ lạc bên cửa sông Cái, là điểm đến văn hoá – tâm linh nổi tiếng ở Nha Trang.",
+      "source": "https://vietnam.travel"
+    }
+  ]
+}
